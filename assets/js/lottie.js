@@ -17,3 +17,13 @@ var animation2 = bodymovin.loadAnimation({
     autoplay: true, // optional
     name: "Home Animation", // optional
 });
+
+var animation3 = bodymovin.loadAnimation({
+    // animationData: { /* ... */ },
+    container: document.getElementById('frame3'), // required
+    path: 'assets/data3.json', // required
+    renderer: 'svg', // required
+    loop: true, // optional
+    autoplay: true, // optional
+    name: "Home Animation", // optional
+});

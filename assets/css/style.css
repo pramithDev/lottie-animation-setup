@@ -5,10 +5,10 @@
     padding-top: 100px;
 }
 
-#frame1,#frame2{
-    width: 600px;
+#frame1,#frame2,#frame3{
+    width: 300px;
 }
 
-/* #frame2{
+#frame2{
     display: none;
-} */
+}
