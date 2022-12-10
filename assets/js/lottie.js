@@ -1,7 +1,7 @@
 var animation1 = bodymovin.loadAnimation({
     // animationData: { /* ... */ },
     container: document.getElementById('selecting'), // required
-    path: 'assets/selecting.json', // required
+    path: 'assets/lottie-json/selecting.json', // required
     renderer: 'svg', // required
     loop: true, // optional
     autoplay: true, // optional
@@ -11,7 +11,7 @@ var animation1 = bodymovin.loadAnimation({
 var animation2 = bodymovin.loadAnimation({
     // animationData: { /* ... */ },
     container: document.getElementById('choosing'), // required
-    path: 'assets/choosing.json', // required
+    path: 'assets/lottie-json/choosing.json', // required
     renderer: 'svg', // required
     loop: true, // optional
     autoplay: true, // optional
@@ -21,7 +21,7 @@ var animation2 = bodymovin.loadAnimation({
 var animation3 = bodymovin.loadAnimation({
     // animationData: { /* ... */ },
     container: document.getElementById('interview'), // required
-    path: 'assets/interview.json', // required
+    path: 'assets/lottie-json/interview.json', // required
     renderer: 'svg', // required
     loop: true, // optional
     autoplay: true, // optional
@@ -31,7 +31,7 @@ var animation3 = bodymovin.loadAnimation({
 var animation3 = bodymovin.loadAnimation({
     // animationData: { /* ... */ },
     container: document.getElementById('hired'), // required
-    path: 'assets/hired.json', // required
+    path: 'assets/lottie-json/hired.json', // required
     renderer: 'svg', // required
     loop: true, // optional
     autoplay: true, // optional
