@@ -3,13 +3,13 @@
     align-items: center;
     justify-content: center;
     padding-top: 100px;
-    max-width: 650px;
+    max-width: 350px;
     margin: 0 auto;
     flex-wrap: wrap;
 }
 
-#frame1,#frame2,#frame3{
-    width: 300px;
+.animation{
+    flex: 0 50%;
 }
 
 /* #frame2{
